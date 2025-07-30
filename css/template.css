@@ -41,7 +41,8 @@ body {
 html {
   scroll-behavior: smooth;
 }
-/*  stert heading special */
+
+/*  start heading special */
 .heading-special {
   font-size: 60px;
   margin: 0;
@@ -171,7 +172,7 @@ html {
   --min-color: #10cab7;
 }
 
-/* stert landing  */
+/* start landing  */
 
 .landing {
   background-image: url(../images/landing.jpg);
@@ -247,7 +248,7 @@ html {
 
 /*end features */
 
-/* sart services */
+/* start services */
 .parent-services {
   padding: 20px;
 }
@@ -293,7 +294,7 @@ html {
 
 /* end services */
 
-/* start profolio */
+/* start portfolio */
 .parent-portfolio {
   background-color: #f6f6f6;
   padding-left: 0;
@@ -301,7 +302,7 @@ html {
   padding-top: 60px;
 }
 
-/* end heading profolio */
+/* end heading portfolio */
 .child-portfolio {
   padding-bottom: 20px;
   padding-top: 60px;
@@ -342,7 +343,7 @@ html {
   margin-bottom: 0;
 }
 
-/* end profolio */
+/* end portfolio */
 /* start about */
 .parent-about {
   padding-top: 60px;
@@ -481,7 +482,7 @@ a {
 }
 
 /* end contact *
-         /* start footer */
+/* start footer */
 .footer {
   background-color: #075261;
   color: white;
@@ -496,6 +497,7 @@ a {
 .span {
   color: var(--min-color);
 }
+
 img:hover {
   cursor: pointer;
   animation-name: rotate;
@@ -505,17 +507,20 @@ img:hover {
   animation-play-state: running;
   background-color: #f6f6f6;
 }
+
 @keyframes rotate {
   0% {
-    transform: rotatey( 360deg);
-}
-100% {
+    transform: rotatey(360deg);
+  }
+
+  100% {
     transform: rotate3d(0, 0, 0, 0deg);
   }
 }
-.column-portfolio{
-    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+
+.column-portfolio {
+  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 /* end footer */
